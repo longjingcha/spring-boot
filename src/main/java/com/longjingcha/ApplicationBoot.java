@@ -19,9 +19,9 @@ import javax.sql.DataSource;
 @EnableAutoConfiguration
 @SpringBootApplication
 @ComponentScan
-@MapperScan("com.longjingcha.mapper")
-public class Application {
-    private static Logger logger = Logger.getLogger(Application.class);
+@MapperScan("com.longjingcha.dao")
+public class ApplicationBoot {
+    private static Logger logger = Logger.getLogger(ApplicationBoot.class);
 
     @Bean
     @ConfigurationProperties(prefix="spring.datasource")
@@ -52,7 +52,7 @@ public class Application {
      * Start
      */
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(ApplicationBoot.class, args);
         logger.info("SpringBoot Start Success");
     }
 

@@ -1,9 +1,10 @@
 package com.longjingcha.service;
 
-import com.longjingcha.mapper.UserMapper;
-import com.longjingcha.model.User;
+import com.longjingcha.dao.UserDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 /**
  * Created by user
@@ -13,12 +14,12 @@ import org.springframework.stereotype.Service;
 public class UserService {
 
     @Autowired
-    private UserMapper userMapper;
+    private UserDao userDao;
 
-    public User getUserInfo(){
-        User user=userMapper.findUserInfo();
-        //User user=null;
-        return user;
+    public List getUserInfo(){
+        List list= userDao.findUserInfo();
+        System.out.println("ssss");
+        return list ;
     }
 
 }

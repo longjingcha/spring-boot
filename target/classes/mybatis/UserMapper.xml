@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.longjingcha.mapper.UserMapper">
- 
-  <select id="findUserInfo" resultType="com.longjingcha.model.User">
-    select name, age,password from user;
+<mapper namespace="com.longjingcha.dao.UserDao">
+  <resultMap id="BaseResultMap" type="com.longjingcha.model.User" >
+    <result column="name" property="name" jdbcType="VARCHAR" />
+    <result column="password" property="password" jdbcType="VARCHAR" />
+    <result column="age" property="age" jdbcType="INTEGER" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    name, password, age
+  </sql>
+  <select id="findUserInfo" resultMap="BaseResultMap">
+    select * from user;
   </select>
  
 </mapper>
