@@ -15,7 +15,7 @@ Spring Boot就是用来简化Spring应用的搭建以及开发过程。该框架
 | Spring session    | 分布式Session管理 | [http://projects.spring.io/spring-session/](http://projects.spring.io/spring-session/) |
 | MyBatis           | ORM框架        | [http://www.mybatis.org/mybatis-3/zh/index.html](http://www.mybatis.org/mybatis-3/zh/index.html) |
 | MyBatis Generator | 代码生成         | [http://www.mybatis.org/generator/index.html](http://www.mybatis.org/generator/index.html) |
-## 环境搭建（QQ群内有“zheng环境搭建和系统部署文档.doc”）
+## 环境搭建
 
 #### 开发工具:
 - MySql: 数据库
