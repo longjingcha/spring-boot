@@ -23,10 +23,12 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="spring-boot" />
+        <module name="springboot-mybatis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="spring-boot" target="1.5" />
+      <module name="spring-boot" target="1.7" />
+      <module name="springboot-mybatis" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

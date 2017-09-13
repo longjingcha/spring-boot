@@ -1,0 +1,8 @@
+com\longjingcha\mapper\UserMapper.class
+com\longjingcha\controller\HelloController.class
+com\longjingcha\Application.class
+com\longjingcha\service\UserService.class
+com\longjingcha\controller\UserController.class
+com\longjingcha\model\User.class
+com\longjingcha\controller\SwaggerController.class
+com\longjingcha\config\SwaggerConfig.class
