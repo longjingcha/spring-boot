@@ -9,7 +9,6 @@ Spring Boot就是用来简化Spring应用的搭建以及开发过程。该框架
 ###技术选型
 ####后端技术
 | 技术                | 名称           | 官网                                       |
-| ----------------- | ------------ | ---------------------------------------- |
 | Spring Framework  | 容器           | [http://projects.spring.io/spring-framework/](http://projects.spring.io/spring-framework/) |
 | Apache Shiro      | 安全框架         | [http://shiro.apache.org/](http://shiro.apache.org/) |
 | Spring session    | 分布式Session管理 | [http://projects.spring.io/spring-session/](http://projects.spring.io/spring-session/) |
