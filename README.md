@@ -6,14 +6,13 @@ Spring Boot就是用来简化Spring应用的搭建以及开发过程。该框架
 
 ## 项目介绍
 基于SpringBoot+Mybatis分布式敏捷开发系统架构，提供为中小型企业打造全方位J2EE企业级快速开发解决方案。
-### 技术选型
-#### 后端技术
-| 技术                | 名称           | 官网                                       |
-| Spring Framework  | 容器           | [http://projects.spring.io/spring-framework/](http://projects.spring.io/spring-framework/) |
-| Apache Shiro      | 安全框架         | [http://shiro.apache.org/](http://shiro.apache.org/) |
-| Spring session    | 分布式Session管理 | [http://projects.spring.io/spring-session/](http://projects.spring.io/spring-session/) |
-| MyBatis           | ORM框架        | [http://www.mybatis.org/mybatis-3/zh/index.html](http://www.mybatis.org/mybatis-3/zh/index.html) 
-| MyBatis Generator | 代码生成         | [http://www.mybatis.org/generator/index.html](http://www.mybatis.org/generator/index.html) |
+#### 后端技术:
+| 技术                         | 名称            | 官网                                       |
+| -------------------------- | ------------- | ---------------------------------------- |
+| Spring Boot          | 容器            | [http://http://projects.spring.io/spring-boot/](http://http://projects.spring.io/spring-boot/) |
+| Apache Shiro               | 安全框架          | [http://shiro.apache.org/](http://shiro.apache.org/) |
+| Spring session             | 分布式Session管理  | [http://projects.spring.io/spring-session/](http://projects.spring.io/spring-session/) |
+| MyBatis                    | ORM框架         | [http://www.mybatis.org/mybatis-3/zh/index.html](http://www.mybatis.org/mybatis-3/zh/index.html) |
 ## 环境搭建
 
 #### 开发工具:
