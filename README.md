@@ -1,18 +1,18 @@
 # spring-boot
-##前言
+## 前言
 spring-boot解决了什么，为什么要用它呢？
 Spring Boot就是用来简化Spring应用的搭建以及开发过程。该框架致力于实现免XML配置，提供便捷，独立的运行环境，实现“一键运行”满足快速应用开发的需求。
 基于SpringBoot+Mybatis项目敏捷开发系统，该项目创建于2017年9月13凌晨（苹果十周年发布），随着时间的推移，正在慢慢的成长，努力打造一个spring-boot整合mybatis快速、敏捷、灵活的中小企业解决方案的项目。
 
-##项目介绍
+## 项目介绍
 基于SpringBoot+Mybatis分布式敏捷开发系统架构，提供为中小型企业打造全方位J2EE企业级快速开发解决方案。
-###技术选型
-####后端技术
+### 技术选型
+#### 后端技术
 | 技术                | 名称           | 官网                                       |
 | Spring Framework  | 容器           | [http://projects.spring.io/spring-framework/](http://projects.spring.io/spring-framework/) |
 | Apache Shiro      | 安全框架         | [http://shiro.apache.org/](http://shiro.apache.org/) |
 | Spring session    | 分布式Session管理 | [http://projects.spring.io/spring-session/](http://projects.spring.io/spring-session/) |
-| MyBatis           | ORM框架        | [http://www.mybatis.org/mybatis-3/zh/index.html](http://www.mybatis.org/mybatis-3/zh/index.html) |
+| MyBatis           | ORM框架        | [http://www.mybatis.org/mybatis-3/zh/index.html](http://www.mybatis.org/mybatis-3/zh/index.html) 
 | MyBatis Generator | 代码生成         | [http://www.mybatis.org/generator/index.html](http://www.mybatis.org/generator/index.html) |
 ## 环境搭建
 
