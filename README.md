@@ -33,7 +33,7 @@ Spring Boot就是用来简化Spring应用的搭建以及开发过程。该框架
 
 ###项目搭建步骤
 #### 项目结构（最初的模样）
- ![QQ图片20170913174526](C:\Users\User\Desktop\QQ图片20170913174526.png)
+ ![QQ图片20170913174526](https://github.com/longjingcha/spring-boot/blob/master/images/QQ%E5%9B%BE%E7%89%8720170913174526.png)
 #### 数据库
 spring-boot.sql
 
@@ -242,7 +242,7 @@ ApplicationBoot启动项目（ApplicationBoot.java）
 
 
 
- ![QQ图片20170913180548](C:\Users\User\Desktop\QQ图片20170913180548.png)
+ ![QQ图片20170913180548](https://github.com/longjingcha/spring-boot/blob/master/images/QQ%E5%9B%BE%E7%89%8720170913180548.png)
 
 上边之前提过的三种方式
 
@@ -250,13 +250,13 @@ view
 
 http://localhost:8080/sso/index
 
- ![QQ图片20170913180750](C:\Users\User\Desktop\QQ图片20170913180750.png)
+ ![QQ图片20170913180750](https://github.com/longjingcha/spring-boot/blob/master/images/QQ%E5%9B%BE%E7%89%8720170913180750.png)
 
- JSON![QQ图片20170913180848](C:\Users\User\Desktop\QQ图片20170913180848.png)
+ JSON![QQ图片20170913180848](https://github.com/longjingcha/spring-boot/blob/master/images/QQ%E5%9B%BE%E7%89%8720170913180848.png)
 
 RESTFUL
 
- ![QQ图片20170913181022](C:\Users\User\Desktop\QQ图片20170913181022.png)
+ ![QQ图片20170913181022](https://github.com/longjingcha/spring-boot/blob/master/images/QQ%E5%9B%BE%E7%89%8720170913181022.png)
 
 
 
