@@ -1,19 +1,18 @@
 # spring-boot
-##前言
+## 前言
 spring-boot解决了什么，为什么要用它呢？
 Spring Boot就是用来简化Spring应用的搭建以及开发过程。该框架致力于实现免XML配置，提供便捷，独立的运行环境，实现“一键运行”满足快速应用开发的需求。
 基于SpringBoot+Mybatis项目敏捷开发系统，该项目创建于2017年9月13凌晨（苹果十周年发布），随着时间的推移，正在慢慢的成长，努力打造一个spring-boot整合mybatis快速、敏捷、灵活的中小企业解决方案的项目。
 
-##项目介绍
+## 项目介绍
 基于SpringBoot+Mybatis分布式敏捷开发系统架构，提供为中小型企业打造全方位J2EE企业级快速开发解决方案。
-###技术选型
-####后端技术
-| 技术                | 名称           | 官网                                       |
-| Spring Framework  | 容器           | [http://projects.spring.io/spring-framework/](http://projects.spring.io/spring-framework/) |
-| Apache Shiro      | 安全框架         | [http://shiro.apache.org/](http://shiro.apache.org/) |
-| Spring session    | 分布式Session管理 | [http://projects.spring.io/spring-session/](http://projects.spring.io/spring-session/) |
-| MyBatis           | ORM框架        | [http://www.mybatis.org/mybatis-3/zh/index.html](http://www.mybatis.org/mybatis-3/zh/index.html) |
-| MyBatis Generator | 代码生成         | [http://www.mybatis.org/generator/index.html](http://www.mybatis.org/generator/index.html) |
+#### 后端技术:
+| 技术                         | 名称            | 官网                                       |
+| -------------------------- | ------------- | ---------------------------------------- |
+| Spring Boot          | 容器            | [http://http://projects.spring.io/spring-boot/](http://http://projects.spring.io/spring-boot/) |
+| Apache Shiro               | 安全框架          | [http://shiro.apache.org/](http://shiro.apache.org/) |
+| Spring session             | 分布式Session管理  | [http://projects.spring.io/spring-session/](http://projects.spring.io/spring-session/) |
+| MyBatis                    | ORM框架         | [http://www.mybatis.org/mybatis-3/zh/index.html](http://www.mybatis.org/mybatis-3/zh/index.html) |
 ## 环境搭建
 
 #### 开发工具:
@@ -33,7 +32,7 @@ Spring Boot就是用来简化Spring应用的搭建以及开发过程。该框架
 
 ###项目搭建步骤
 #### 项目结构（最初的模样）
- ![QQ图片20170913174526](C:\Users\User\Desktop\QQ图片20170913174526.png)
+ ![QQ图片20170913174526](https://github.com/longjingcha/spring-boot/blob/master/images/QQ%E5%9B%BE%E7%89%8720170913174526.png)
 #### 数据库
 spring-boot.sql
 
@@ -242,7 +241,7 @@ ApplicationBoot启动项目（ApplicationBoot.java）
 
 
 
- ![QQ图片20170913180548](C:\Users\User\Desktop\QQ图片20170913180548.png)
+ ![QQ图片20170913180548](https://github.com/longjingcha/spring-boot/blob/master/images/QQ%E5%9B%BE%E7%89%8720170913180548.png)
 
 上边之前提过的三种方式
 
@@ -250,13 +249,13 @@ view
 
 http://localhost:8080/sso/index
 
- ![QQ图片20170913180750](C:\Users\User\Desktop\QQ图片20170913180750.png)
+ ![QQ图片20170913180750](https://github.com/longjingcha/spring-boot/blob/master/images/QQ%E5%9B%BE%E7%89%8720170913180750.png)
 
- JSON![QQ图片20170913180848](C:\Users\User\Desktop\QQ图片20170913180848.png)
+ JSON![QQ图片20170913180848](https://github.com/longjingcha/spring-boot/blob/master/images/QQ%E5%9B%BE%E7%89%8720170913180848.png)
 
 RESTFUL
 
- ![QQ图片20170913181022](C:\Users\User\Desktop\QQ图片20170913181022.png)
+ ![QQ图片20170913181022](https://github.com/longjingcha/spring-boot/blob/master/images/QQ%E5%9B%BE%E7%89%8720170913181022.png)
 
 
 
