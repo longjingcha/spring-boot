@@ -11,7 +11,7 @@
 DROP TABLE IF EXISTS `user`;
 CREATE TABLE `user` (
   `id` int(11) NOT NULL,
-  `name` varchar(255) DEFAULT NULL,
+  `username` varchar(255) DEFAULT NULL,
   `age` int(11) DEFAULT NULL,
   `password` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)

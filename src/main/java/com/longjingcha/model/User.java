@@ -4,18 +4,20 @@ package com.longjingcha.model;
  * Created by user
  */
 public class User {
-    private String name;
+
+
+    private String username;
     private Integer age;
     private String password;
 
-    public String getName() {
-        return name;
+
+    public String getUsername() {
+        return username;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setUsername(String username) {
+        this.username = username;
     }
-
     public Integer getAge() {
         return age;
     }
