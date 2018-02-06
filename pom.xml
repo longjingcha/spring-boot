@@ -9,7 +9,7 @@
 <parent>
   <groupId>org.springframework.boot</groupId>
   <artifactId>spring-boot-starter-parent</artifactId>
-  <version>1.2.5.RELEASE</version>
+  <version>1.3.0.M2</version>
 </parent>
 <properties>
   <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -20,6 +20,10 @@
   <swagger.version>0.9.5</swagger.version>
   <common.version>2.5</common.version>
   <shiro.version>1.3.2</shiro.version>
+  <redis.version>1.5.2.RELEASE</redis.version>
+  <dubbo-spring-boot.vrsion>2.6.0</dubbo-spring-boot.vrsion>
+  <zookeeper.version>3.4.6</zookeeper.version>
+  <zookeeper.client.version>0.1</zookeeper.client.version>
 </properties>
 <dependencies>
   <!--Spring Boot-->
@@ -85,16 +89,61 @@
     <artifactId>shiro-core</artifactId>
     <version>${shiro.version}</version>
   </dependency>
+  <dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-data-redis</artifactId>
+    <version>${redis.version}</version>
+  </dependency>
+  <!-- Springloaded 实现热部署 -->
+  <dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-devtools</artifactId>
+    <optional>true</optional>
+  </dependency>
+
+  <!-- spring-security -->
+  <!--<dependency>-->
+    <!--<groupId>org.springframework.boot</groupId>-->
+    <!--<artifactId>spring-boot-starter-security</artifactId>-->
+  <!--</dependency>-->
+
+  <!-- dubbo依赖 -->
+  <dependency>
+    <groupId>com.alibaba</groupId>
+    <artifactId>dubbo</artifactId>
+    <version>${dubbo-spring-boot.vrsion}</version>
+  </dependency>
+
+  <dependency>
+    <groupId>org.apache.zookeeper</groupId>
+    <artifactId>zookeeper</artifactId>
+    <version>${zookeeper.version}</version>
+    <exclusions>
+      <exclusion>
+        <artifactId>slf4j-log4j12</artifactId>
+        <groupId>org.slf4j</groupId>
+      </exclusion>
+    </exclusions>
+  </dependency>
+  <dependency>
+    <groupId>com.github.sgroschupf</groupId>
+    <artifactId>zkclient</artifactId>
+    <version>${zookeeper.client.version}</version>
+  </dependency>
 </dependencies>
 <build>
   <plugins>
     <plugin>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-maven-plugin</artifactId>
+      <configuration>
+        <fork>true</fork>
+        <addResources>true</addResources>
+      </configuration>
     </plugin>
   </plugins>
 </build>
-<repositories>
+  <repositories>
   <repository>
     <id>spring-milestone</id>
     <url>https://repo.spring.io/libs-release</url>
